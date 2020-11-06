@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+            p.highlight {
+                color: red;
+            }
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+        </style>
+        <script src="svgelement.js"></script>
+        <script src="observable.js"></script>
+        <script src="asteroids.js"></script>
+    </head>
+    <body>
+        <h1>Asteroids</h1>
+        <svg id="canvas" width="600" height="600">
+                <text id = "display" x="10" y="20" fill="white" style="font-size:20px;" font-family="Courier New">
+                        display
+                        
+                    </text>
+]                  
+        </svg>
+
+        <svg width="500" height="200">
+            <text x="10" y="30" style="fill:white;" font-family="Courier New">HOW TO PLAY:
+              <tspan x="10" y="50"> 🚀 ⬅️ to rotate anti-clockwise</tspan>
+              <tspan x="10" y="70">🚀 ⬆️ to move forward</tspan>
+              <tspan x="10" y="90">🚀 ➡️ to rotate clockwise</tspan>
+              <tspan x="10" y="110">🚀 ␣  to shoot </tspan>
+              <tspan x="10" y="130">🚀 shoot asteroids to get points but don't get hit!</tspan>
+              <tspan x="10" y="150">GOOD LUCK! ⭐️</tspan>
+              <tspan x="10" y="170">❗️game begins on refresh, so move quick!❗️</tspan>
+            </text>
+          </svg>
+
+    
+        
+    </body>
+</html>
